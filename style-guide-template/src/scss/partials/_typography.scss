@@ -1,0 +1,33 @@
+/* -------------------------------- 
+
+_Typography 
+
+-------------------------------- */
+
+h1, h2, h3 {
+  font-family: $primary-font;
+  color: $color-5;
+}
+
+h1 {
+  font-size: $header1-size;
+}
+
+h2 {
+  font-size: $header2-size;
+}
+
+h3 {
+  font-size: $header3-size;
+}
+
+p {
+  font-family: $secondary-font;
+  
+  a {
+    color: $color-1;
+    text-decoration: none;
+  }
+
+  
+}
