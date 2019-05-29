@@ -2,6 +2,8 @@
 @import 'partials/prefix-mixins';
 @import 'partials/layout';
 @import 'partials/color-style';
+@import 'partials/image-style';
+
 // responsive grid and media queries
 
 // color palette - these colors will be the color swatches of the Colors section
@@ -20,9 +22,9 @@ $header1-size: 1.5em;
 $header2-size: 1.3em;
 $header3-size: 0.875em;
 
-/* -------------------------------- 
+/* --------------------------------
 
-xBackground 
+xBackground
 
 -------------------------------- */
 
@@ -31,7 +33,7 @@ body {
   background-color: $color-3;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 xPatterns
 
@@ -46,9 +48,9 @@ xPatterns
   padding: 6px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xNavigation 
+xNavigation
 
 -------------------------------- */
 
@@ -133,9 +135,9 @@ header {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xPage title 
+xPage title
 
 -------------------------------- */
 
@@ -148,17 +150,17 @@ main > h1 {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xTypography 
+xTypography
 
 -------------------------------- */
 
 @import 'partials/_typography';
 
-/* -------------------------------- 
+/* --------------------------------
 
-xButtons 
+xButtons
 
 -------------------------------- */
 
@@ -220,21 +222,23 @@ xButtons
   color: $color-3;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xIcons 
+xIcons
+
+
 
 -------------------------------- */
 
-.cd-icons li {
-  /* icons size */
-  width: 32px;
-  height: 32px;
-}
+@import 'partials/_icons';
 
-/* -------------------------------- 
 
-xForm 
+
+
+
+/* --------------------------------
+
+xForm
 
 -------------------------------- */
 

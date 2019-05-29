@@ -40,3 +40,10 @@
   -o-appearance: $option;
   appearance: $option;
 }
+
+@mixin image-replace($imageURL) {
+ background: url($imageURL) no-repeat;
+ text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}

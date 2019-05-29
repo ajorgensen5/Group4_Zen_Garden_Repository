@@ -1,0 +1,45 @@
+/* aeronautics graphics/icons*/
+
+$icon-fighter-50: url(/icons/icons8-fighter-50.png); /*/ fighter plane */
+$icon-fighter-jet: url(/icons/icons8-fighter-jet.png); /*/ fighter jet */
+$icon-helicopter: url(/icons/icons8-helicopter.png); /*/ helicopter*/
+$icon-missile: url(/icons/icons8-missile.png); /*/ missile */
+$icon-space-shuttle: url(icons/icons8-space-shuttle.png); /*/ space shuttle */
+
+
+/* CSS class name icon */
+
+.cd-icon-1::after {
+  background-image: $icon-fighter-50;
+}
+
+.cd-icon-2::after {
+  background-image: $icon-fighter-jet;
+}
+
+.cd-icon-3::after {
+  background-image: $icon-helicopter;
+}
+
+.cd-icon-4::after {
+  background-image: $icon-helicopter;
+}
+
+.cd-icon-5::after {
+  background-image: $icon-space-shuttle;
+}
+
+// .fa-fighter-jet:before {
+//   content: "\f0fb";
+// }
+
+// find out how to use font awesome
+
+// link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+.cd-icons li {
+  /* icons size */
+  width: 32px;
+  height: 32px;
+  background-image: no-repeat center;
+}
