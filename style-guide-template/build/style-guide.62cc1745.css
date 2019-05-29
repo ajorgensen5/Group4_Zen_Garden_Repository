@@ -60,6 +60,10 @@ table {
 /*/ accent green*/
 /* Light Blue Pantone 299 */
 /* Light red Pantone 179 */
+.cd-colors {
+  color: #f7f7f7;
+}
+
 @font-face {
   font-family: Roboto, Proza Libre;
   src: url("https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap") format("Roboto, Proza Libre");
@@ -79,6 +83,9 @@ body {
 xPatterns
 
 -------------------------------- */
+/*Image variables */
+/* $logo-ver-1: logo-version-a; */
+/* $logo-ver-2: logo-version-b; */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #003478;
@@ -189,7 +196,9 @@ xTypography
 _Typography 
 
 -------------------------------- */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Roboto", sans-serif;
   color: #43802a;
 }
