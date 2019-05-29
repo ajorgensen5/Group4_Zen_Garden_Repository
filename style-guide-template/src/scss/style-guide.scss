@@ -13,7 +13,8 @@
 // fonts
 @font-face {
   font-family: Roboto, Proza Libre;
-  src: url('https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap') format("Roboto, Proza Libre");
+  src: url('https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap')
+    format('Roboto, Proza Libre');
 }
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Proza Libre', sans-serif;
@@ -230,10 +231,6 @@ xIcons
 -------------------------------- */
 
 @import 'partials/_icons';
-
-
-
-
 
 /* --------------------------------
 
