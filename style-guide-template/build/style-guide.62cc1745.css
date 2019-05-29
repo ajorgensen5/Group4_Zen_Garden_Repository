@@ -64,25 +64,6 @@ table {
   color: #f7f7f7;
 }
 
-@font-face {
-  font-family: Roboto, Proza Libre;
-  src: url("https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap") format("Roboto, Proza Libre");
-}
-/* -------------------------------- 
-
-xBackground 
-
--------------------------------- */
-body {
-  /* this is the page background */
-  background-color: #f7f7f7;
-}
-
-/* -------------------------------- 
-
-xPatterns
-
--------------------------------- */
 /*Image variables */
 /* $logo-ver-1: logo-version-a; */
 /* $logo-ver-2: logo-version-b; */
@@ -95,9 +76,37 @@ xPatterns
   padding: 6px;
 }
 
-/* -------------------------------- 
+@font-face {
+  font-family: Roboto, Proza Libre;
+  src: url("https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap") format("Roboto, Proza Libre");
+}
+/* --------------------------------
 
-xNavigation 
+xBackground
+
+-------------------------------- */
+body {
+  /* this is the page background */
+  background-color: #f7f7f7;
+}
+
+/* --------------------------------
+
+xPatterns
+
+-------------------------------- */
+.cd-box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid #003478;
+  border-radius: 3px;
+  background: #000000;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 6px;
+}
+
+/* --------------------------------
+
+xNavigation
 
 -------------------------------- */
 header {
@@ -171,9 +180,9 @@ header {
   border-color: #003478;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xPage title 
+xPage title
 
 -------------------------------- */
 main > h1 {
@@ -186,9 +195,9 @@ main > h1 {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xTypography 
+xTypography
 
 -------------------------------- */
 /* -------------------------------- 
@@ -223,9 +232,9 @@ p a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xButtons 
+xButtons
 
 -------------------------------- */
 .btn {
@@ -277,20 +286,49 @@ xButtons
   color: #f7f7f7;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xIcons 
+xIcons
+
 
 -------------------------------- */
+/* aeronautics graphics/icons*/
+/*/ fighter plane */
+/*/ fighter jet */
+/*/ helicopter*/
+/*/ missile */
+/*/ space shuttle */
+/* CSS class name icon */
+.cd-icon-1::after {
+  background-image: url(/icons8-fighter-50.2da78a08.png);
+}
+
+.cd-icon-2::after {
+  background-image: url(/icons8-fighter-jet.4dd296cc.png);
+}
+
+.cd-icon-3::after {
+  background-image: url(/icons8-helicopter.e9442bbe.png);
+}
+
+.cd-icon-4::after {
+  background-image: url(/icons8-helicopter.e9442bbe.png);
+}
+
+.cd-icon-5::after {
+  background-image: url(/icons8-space-shuttle.161b20d5.png);
+}
+
 .cd-icons li {
   /* icons size */
   width: 32px;
   height: 32px;
+  background-image: no-repeat center;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xForm 
+xForm
 
 -------------------------------- */
 input[type=text],
