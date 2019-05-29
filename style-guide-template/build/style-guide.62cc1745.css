@@ -60,6 +60,10 @@ table {
 /*/ accent green*/
 /* Light Blue Pantone 299 */
 /* Light red Pantone 179 */
+.cd-colors {
+  color: #f7f7f7;
+}
+
 @font-face {
   font-family: Roboto, Proza Libre;
   src: url("https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap") format("Roboto, Proza Libre");
@@ -189,7 +193,9 @@ xTypography
 _Typography 
 
 -------------------------------- */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Roboto", sans-serif;
   color: #43802a;
 }

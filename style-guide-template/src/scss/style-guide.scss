@@ -1,17 +1,18 @@
 @import 'partials/reset';
 @import 'partials/prefix-mixins';
 @import 'partials/layout';
-@import 'partials/color-style';
 // responsive grid and media queries
 
 // color palette - these colors will be the color swatches of the Colors section
+@import 'partials/color-style';
 
 // additional colors
 // test
 // fonts
 @font-face {
   font-family: Roboto, Proza Libre;
-  src: url('https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap') format("Roboto, Proza Libre");
+  src: url('https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap')
+    format('Roboto, Proza Libre');
 }
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Proza Libre', sans-serif;
