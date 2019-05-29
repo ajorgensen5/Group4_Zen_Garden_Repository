@@ -83,6 +83,9 @@ body {
 xPatterns
 
 -------------------------------- */
+/*Image variables */
+/* $logo-ver-1: logo-version-a; */
+/* $logo-ver-2: logo-version-b; */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #003478;
