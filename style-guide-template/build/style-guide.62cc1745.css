@@ -86,6 +86,103 @@ table {
   padding: 6px;
 }
 
+/* aeronautics graphics/icons*/
+/*fighterplane */
+/*/ fighter jet */
+/*/ helicopter*/
+/*/ missile */
+/*/ space shuttle */
+/* test */
+/* CSS class name icon */
+#icons.cd-icons .cd-icon-1 {
+  background-image: url("/icons8-fighter50.24f1f036.png");
+}
+#icons.cd-icons .cd-icon-2 {
+  background-image: url("/icons8-fighter-jet50.bd72c582.png");
+}
+#icons.cd-icons .cd-icon-3 {
+  background-image: url("/icons8-helicopter.48d868db.png");
+}
+#icons.cd-icons .cd-icon-4 {
+  background-image: url("/icons8-missile.8b263066.png");
+}
+#icons.cd-icons .cd-icon-5 {
+  background-image: url("/icons8-space-shuttle.1d6459cd.png");
+}
+
+.fa-fighter-jet:before {
+  content: "";
+}
+
+.cd-icons li {
+  /* icons size */
+  height: 80px;
+  width: 80px;
+  color: #414042;
+}
+
+/* color palette - these colors will be the color swatches of the Colors section */
+/*/ Blue Pantone 294*/
+/*/ Dark Grey*/
+/*/ Off-white*/
+/*/ Black accent*/
+/*/ accent green*/
+/* Light Blue Pantone 299 */
+/* Light red Pantone 179 */
+.cd-colors {
+  color: #f7f7f7;
+}
+
+.cd-logo {
+  background-color: #43802a;
+}
+
+.cd-typography,
+.cd-buttons {
+  color: #f7f7f7;
+}
+
+body .cd-main-nav {
+  /* main navigation background color - full screen on small devices */
+  background-color: #003478;
+}
+body .cd-main-nav li a {
+  color: #000000;
+  border-color: #4e4d4f;
+  font-weight: bold;
+  padding: 2px;
+}
+@media only screen and (min-width: 1024px) {
+  body .cd-main-nav li a {
+    color: #a7a6a8;
+  }
+  body .cd-main-nav li a.selected {
+    color: #43802a;
+    box-shadow: 0 2px 0 #003478;
+  }
+  body .cd-main-nav li a:hover {
+    color: #43802a;
+  }
+}
+
+.cd-nav-trigger span {
+  /* hamburger menu */
+  background-color: #43802a;
+}
+.cd-nav-trigger span::before, .cd-nav-trigger span::after {
+  /* upper and lower lines */
+  background-color: #43802a;
+}
+
+.nav-is-visible .cd-nav-trigger span {
+  /* hide line in the center on mobile when nav is visible */
+  background-color: rgba(67, 128, 42, 0);
+}
+.nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
+  /* preserve visibility of upper and lower lines - close icon */
+  background-color: #43802a;
+}
+
 @font-face {
   font-family: Roboto, Proza Libre;
   src: url("https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap") format("Roboto, Proza Libre");
@@ -109,7 +206,7 @@ xPatterns
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #003478;
   border-radius: 3px;
-  background: #000000;
+  background: #003478;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
 }
@@ -131,45 +228,6 @@ header {
   .cd-logo {
     width: 180px;
   }
-}
-
-.cd-main-nav {
-  /* main navigation background color - full screen on small devices */
-  background: #414042;
-}
-.cd-main-nav li a {
-  color: #43802a;
-  border-color: #4e4d4f;
-}
-@media only screen and (min-width: 1024px) {
-  .cd-main-nav li a {
-    color: #a7a6a8;
-  }
-  .cd-main-nav li a.selected {
-    color: #43802a;
-    box-shadow: 0 2px 0 #003478;
-  }
-  .cd-main-nav li a:hover {
-    color: #43802a;
-  }
-}
-
-.cd-nav-trigger span {
-  /* hamburger menu */
-  background-color: #43802a;
-}
-.cd-nav-trigger span::before, .cd-nav-trigger span::after {
-  /* upper and lower lines */
-  background-color: #43802a;
-}
-
-.nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(67, 128, 42, 0);
-}
-.nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
-  /* preserve visibility of upper and lower lines - close icon */
-  background-color: #43802a;
 }
 
 .cd-download {
@@ -211,7 +269,7 @@ xTypography
 -------------------------------- */
 /* -------------------------------- 
 
-_Typography 
+_Typography
 
 -------------------------------- */
 h1,
@@ -301,40 +359,6 @@ xIcons
 
 
 -------------------------------- */
-/* aeronautics graphics/icons*/
-/*fighterplane */
-/*/ fighter jet */
-/*/ helicopter*/
-/*/ missile */
-/*/ space shuttle */
-/* test */
-/* CSS class name icon */
-#icons.cd-icons .cd-icon-1 {
-  background-image: url("/icons8-fighter50.24f1f036.png");
-}
-#icons.cd-icons .cd-icon-2 {
-  background-image: url("/icons8-fighter-jet50.bd72c582.png");
-}
-#icons.cd-icons .cd-icon-3 {
-  background-image: url("/icons8-helicopter.48d868db.png");
-}
-#icons.cd-icons .cd-icon-4 {
-  background-image: url("/icons8-missile.8b263066.png");
-}
-#icons.cd-icons .cd-icon-5 {
-  background-image: url("/icons8-space-shuttle.1d6459cd.png");
-}
-
-.fa-fighter-jet:before {
-  content: "";
-}
-
-.cd-icons li {
-  /* icons size */
-  height: 32px;
-  width: 32px;
-}
-
 /* --------------------------------
 
 xForm
