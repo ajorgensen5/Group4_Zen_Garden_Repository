@@ -65,6 +65,15 @@ table {
   color: #f7f7f7;
 }
 
+.cd-logo {
+  background-color: #43802a;
+}
+
+.cd-typography,
+.cd-buttons {
+  color: #f7f7f7;
+}
+
 /*Image variables */
 /* $logo-ver-1: logo-version-a; */
 /* $logo-ver-2: logo-version-b; */
@@ -116,7 +125,6 @@ header {
 
 .cd-logo {
   /* logo box style */
-  background-color: #003478;
   width: 120px;
 }
 @media only screen and (min-width: 1024px) {
@@ -299,6 +307,7 @@ xIcons
 /*/ helicopter*/
 /*/ missile */
 /*/ space shuttle */
+/* test */
 /* CSS class name icon */
 #icons.cd-icons .cd-icon-1 {
   background-image: url("/icons8-fighter50.24f1f036.png");
