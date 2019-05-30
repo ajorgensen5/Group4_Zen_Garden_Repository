@@ -183,10 +183,42 @@ body .cd-main-nav li a {
   background-color: #43802a;
 }
 
+/* --------------------------------
+
+_Typography
+
+-------------------------------- */
 @font-face {
   font-family: Roboto, Proza Libre;
   src: url("https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap") format("Roboto, Proza Libre");
 }
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #43802a;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 0.875em;
+}
+
+p {
+  font-family: "Proza Libre", sans-serif;
+}
+p a {
+  color: #003478;
+  text-decoration: none;
+}
+
 /* --------------------------------
 
 xBackground
@@ -267,38 +299,6 @@ main > h1 {
 xTypography
 
 -------------------------------- */
-/* -------------------------------- 
-
-_Typography
-
--------------------------------- */
-h1,
-h2,
-h3 {
-  font-family: "Roboto", sans-serif;
-  color: #43802a;
-}
-
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.3em;
-}
-
-h3 {
-  font-size: 0.875em;
-}
-
-p {
-  font-family: "Proza Libre", sans-serif;
-}
-p a {
-  color: #003478;
-  text-decoration: none;
-}
-
 /* --------------------------------
 
 xButtons

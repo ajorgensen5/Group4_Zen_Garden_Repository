@@ -5,6 +5,7 @@
 @import 'partials/image-style';
 @import 'partials/icons';
 @import 'partials/nav-style';
+@import 'partials/typography';
 
 
 // responsive grid and media queries
@@ -14,17 +15,17 @@
 // additional colors
 // test
 // fonts
-@font-face {
-  font-family: Roboto, Proza Libre;
-  src: url('https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap')
-    format('Roboto, Proza Libre');
-}
-$primary-font: 'Roboto', sans-serif;
-$secondary-font: 'Proza Libre', sans-serif;
-
-$header1-size: 1.5em;
-$header2-size: 1.3em;
-$header3-size: 0.875em;
+// @font-face {
+//   font-family: Roboto, Proza Libre;
+//   src: url('https://fonts.googleapis.com/css?family=Proza+Libre|Roboto&display=swap')
+//     format('Roboto, Proza Libre');
+// }
+// $primary-font: 'Roboto', sans-serif;
+// $secondary-font: 'Proza Libre', sans-serif;
+//
+// $header1-size: 1.5em;
+// $header2-size: 1.3em;
+// $header3-size: 0.875em;  moved to typography partials
 
 /* --------------------------------
 
@@ -112,7 +113,7 @@ xTypography
 
 -------------------------------- */
 
-@import 'partials/_typography';
+
 
 /* --------------------------------
 
