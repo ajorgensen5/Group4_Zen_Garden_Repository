@@ -1,31 +1,32 @@
 /* aeronautics graphics/icons*/
 
-$icon-fighter-50: url('/src/assets/icons/icons8-fighter-50.png'); /*fighterplane */
-$icon-fighter-jet: url('/src/assets/icons/icons8-fighter-jet.png'); /*/ fighter jet */
-$icon-helicopter: url('/src/assets/icons/icons8-helicopter.png'); /*/ helicopter*/
-$icon-missile: url('/src/assets/icons/icons8-missile.png'); /*/ missile */
-$icon-space-shuttle: url('/src/assets/icons/icons8-space-shuttle.png'); /*/ space shuttle */
+$icon-fighter50: url('../../src/assets/icons/icons8-fighter50.png'); /*fighterplane */
+$icon-fighter-jet: url('../../src/assets/icons/icons8-fighter-jet50.png'); /*/ fighter jet */
+$icon-helicopter: url('../../src/assets/icons/icons8-helicopter.png'); /*/ helicopter*/
+$icon-missile: url('../../src/assets/icons/icons8-missile.png'); /*/ missile */
+$icon-space-shuttle: url('../../src/assets/icons/icons8-space-shuttle.png'); /*/ space shuttle */
 
 /* CSS class name icon */
+#icons.cd-icons {
+  .cd-icon-1 {
+    background-image: $icon-fighter50;
+  }
 
-.cd-icon-1::after {
-  background-image: $icon-fighter-50;
-}
+  .cd-icon-2 {
+    background-image: $icon-fighter-jet;
+  }
 
-.cd-icon-2::after {
-  background-image: $icon-fighter-jet;
-}
+  .cd-icon-3 {
+    background-image: $icon-helicopter;
+  }
 
-.cd-icon-3::after {
-  background-image: $icon-helicopter;
-}
+  .cd-icon-4 {
+    background-image: $icon-missile;
+  }
 
-.cd-icon-4::after {
-  background-image: $icon-missile;
-}
-
-.cd-icon-5::after {
-  background-image: $icon-space-shuttle;
+  .cd-icon-5 {
+    background-image: $icon-space-shuttle;
+  }
 }
 
 .fa-fighter-jet:before {
