@@ -75,8 +75,6 @@ table {
 }
 
 /*Image variables */
-/* $logo-ver-1: logo-version-a; */
-/* $logo-ver-2: logo-version-b; */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #003478;
@@ -494,7 +492,9 @@ select {
 xBasic style
 
 -------------------------------- */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -522,7 +522,9 @@ img {
   max-width: 100%;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
 }
