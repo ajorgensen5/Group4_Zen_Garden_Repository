@@ -248,15 +248,14 @@ xNavigation
 
 -------------------------------- */
 header {
-  background-color: red;
+  background-color: aqua;
 }
 
-.cd-logo {
-  /* logo box style */
-  width: 120px;
+cd-logo img {
+  background-image: url("/logo-version-B.2f43a27f.jpg");
 }
 @media only screen and (min-width: 1024px) {
-  .cd-logo {
+  cd-logo img {
     width: 180px;
   }
 }

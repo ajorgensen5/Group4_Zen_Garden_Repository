@@ -6,13 +6,10 @@
 @import 'partials/icons';
 @import 'partials/nav-style';
 @import 'partials/typography';
+
 //@import 'partials/header';
-
-
 // responsive grid and media queries
-
 // color palette - these colors will be the color swatches of the Colors section
-
 // additional colors
 // test
 // fonts
@@ -27,7 +24,6 @@
 // $header1-size: 1.5em;
 // $header2-size: 1.3em;
 // $header3-size: 0.875em;  moved to typography partials
-
 /* --------------------------------
 
 xBackground
@@ -35,8 +31,8 @@ xBackground
 -------------------------------- */
 
 body {
-  /* this is the page background */
-  background-color: $color-2;
+    /* this is the page background */
+    background-color: $color-2;
 }
 
 /* --------------------------------
@@ -46,12 +42,12 @@ xPatterns
 -------------------------------- */
 
 .cd-box {
-  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid $color-1;
-  border-radius: 3px;
-  background: $color-1;
-  box-shadow: 0 1px 1px rgba(#000, 0.05);
-  padding: 6px;
+    /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+    border: 1px solid $color-1;
+    border-radius: 3px;
+    background: $color-1;
+    box-shadow: 0 1px 1px rgba(#000, 0.05);
+    padding: 6px;
 }
 
 /* --------------------------------
@@ -66,38 +62,30 @@ xNavigation
 
 
 
-header {
-//  background-color: $color-2;
-    background-color: red;
-}
-
-.cd-logo {
-  /* logo box style */
-  width: 120px;
-
-  @include MQ(M) {
+@include MQ(M) {
     width: 180px;
-  }
 }
+
+
 
 .cd-download {
-  /* download button top-right visible on big devices */
-  background-color: lighten($color-2, 10%);
+    /* download button top-right visible on big devices */
+    background-color: lighten($color-2, 10%);
 
-  .no-touch &:hover {
-    background-color: lighten($color-2, 15%);
-  }
-
-  span {
-    /* tooltip */
-    background: $color-1;
-    color: $color-5;
-
-    &::before {
-      /* right arrow color */
-      border-color: $color-1;
+    .no-touch &:hover {
+        background-color: lighten($color-2, 15%);
     }
-  }
+
+    span {
+        /* tooltip */
+        background: $color-1;
+        color: $color-5;
+
+        &::before {
+            /* right arrow color */
+            border-color: $color-1;
+        }
+    }
 }
 
 /* --------------------------------
@@ -107,12 +95,12 @@ xPage title
 -------------------------------- */
 
 main > h1 {
-  color: $color-2;
+    color: $color-2;
 
-  @include MQ(L) {
-    /* title goes into the header on big devices */
-    color: $color-5;
-  }
+    @include MQ(L) {
+        /* title goes into the header on big devices */
+        color: $color-5;
+    }
 }
 
 /* --------------------------------
@@ -121,8 +109,6 @@ xTypography
 
 -------------------------------- */
 
-
-
 /* --------------------------------
 
 xButtons
@@ -130,61 +116,61 @@ xButtons
 -------------------------------- */
 
 .btn {
-  border: none;
-  box-shadow: none;
-  border-radius: 0.25em;
-  font: {
-    size: 1.4rem;
-    family: $secondary-font;
-  }
-  color: $color-5;
-  padding: 0.6em 2.2em;
-  cursor: pointer;
-  background: $color-1;
+    border: none;
+    box-shadow: none;
+    border-radius: 0.25em;
+    font: {
+        size: 1.4rem;
+        family: $secondary-font;
+    }
+    color: $color-5;
+    padding: 0.6em 2.2em;
+    cursor: pointer;
+    background: $color-1;
 
-  &:focus {
-    outline: none;
-  }
-
-  .no-touch &:hover {
-    background: lighten($color-1, 5%);
-  }
-
-  &.btn-success {
-    background: $success;
+    &:focus {
+        outline: none;
+    }
 
     .no-touch &:hover {
-      background: lighten($success, 5%);
+        background: lighten($color-1, 5%);
     }
-  }
 
-  &.btn-alert {
-    background: $alert;
+    &.btn-success {
+        background: $success;
 
-    .no-touch &:hover {
-      background: lighten($alert, 5%);
+        .no-touch &:hover {
+            background: lighten($success, 5%);
+        }
     }
-  }
 
-  &.btn-outline {
-    color: $color-1;
-    background: transparent;
-    box-shadow: inset 0 0 0 1px $color-1;
+    &.btn-alert {
+        background: $alert;
 
-    .no-touch &:hover {
-      color: $color-5;
-      background: $color-1;
+        .no-touch &:hover {
+            background: lighten($alert, 5%);
+        }
     }
-  }
 
-  @include MQ(S) {
-    font-size: 1.6rem;
-  }
+    &.btn-outline {
+        color: $color-1;
+        background: transparent;
+        box-shadow: inset 0 0 0 1px $color-1;
+
+        .no-touch &:hover {
+            color: $color-5;
+            background: $color-1;
+        }
+    }
+
+    @include MQ(S) {
+        font-size: 1.6rem;
+    }
 }
 
 .cd-buttons .cd-box:nth-of-type(2) span {
-  /* CSS class name color */
-  color: $color-3;
+    /* CSS class name color */
+    color: $color-3;
 }
 
 /* --------------------------------
@@ -194,8 +180,6 @@ xIcons
 
 -------------------------------- */
 
-
-
 /* --------------------------------
 
 xForm
@@ -204,115 +188,115 @@ xForm
 
 input[type='text'],
 select {
-  border: 1px solid $color-4;
-  border-radius: 0.25em;
-  background: $color-5;
+    border: 1px solid $color-4;
+    border-radius: 0.25em;
+    background: $color-5;
 
-  &:focus {
-    outline: none;
-  }
+    &:focus {
+        outline: none;
+    }
 }
 
 input[type='text'] {
-  padding: 0.6em 1em;
-  box-shadow: inset 1px 1px rgba(#000, 0.03);
+    padding: 0.6em 1em;
+    box-shadow: inset 1px 1px rgba(#000, 0.03);
 
-  &.success {
-    border-color: $success;
-    box-shadow: 0 0 6px rgba($success, 0.2);
-  }
+    &.success {
+        border-color: $success;
+        box-shadow: 0 0 6px rgba($success, 0.2);
+    }
 
-  &.alert {
-    border-color: $alert;
-    box-shadow: 0 0 6px rgba($alert, 0.2);
-  }
+    &.alert {
+        border-color: $alert;
+        box-shadow: 0 0 6px rgba($alert, 0.2);
+    }
 
-  &:focus {
-    border-color: $color-1;
-    box-shadow: 0 0 6px rgba($color-1, 0.2);
-  }
+    &:focus {
+        border-color: $color-1;
+        box-shadow: 0 0 6px rgba($color-1, 0.2);
+    }
 }
 
 input[type='radio'],
 input[type='checkbox'] {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
 }
 
 .radio-label,
 .checkbox-label {
-  padding-left: 24px;
-  @include user-select(none);
+    padding-left: 24px;
+    @include user-select(none);
 
-  &::before,
-  &::after {
-    /* custom radio and check boxes */
-    content: '';
-    display: block;
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: 50%;
-    @include transform(translateY(-50%));
-  }
+    &::before,
+    &::after {
+        /* custom radio and check boxes */
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+    }
 
-  &::before {
-    left: 0;
-    border: 1px solid $color-4;
-    box-shadow: inset 1px 1px rgba(#000, 0.03);
-  }
+    &::before {
+        left: 0;
+        border: 1px solid $color-4;
+        box-shadow: inset 1px 1px rgba(#000, 0.03);
+    }
 
-  &::after {
-    left: 3px;
-    background: url('../assets/form/icon-check.svg') no-repeat center center;
-    display: none;
-  }
+    &::after {
+        left: 3px;
+        background: url('../assets/form/icon-check.svg') no-repeat center center;
+        display: none;
+    }
 }
 
 .radio-label::before {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .checkbox-label::before {
-  border-radius: 3px;
+    border-radius: 3px;
 }
 
 input[type='radio']:checked + label::before,
 input[type='checkbox']:checked + label::before {
-  background-color: $color-2;
-  border: none;
-  box-shadow: none;
+    background-color: $color-2;
+    border: none;
+    box-shadow: none;
 }
 
 input[type='radio']:checked + label::after,
 input[type='checkbox']:checked + label::after {
-  display: block;
+    display: block;
 }
 
 .cd-select::after {
-  /* switcher arrow for select element */
-  content: '';
-  position: absolute;
-  z-index: 1;
-  right: 14px;
-  top: 50%;
-  @include transform(translateY(-50%));
-  display: block;
-  width: 16px;
-  height: 16px;
-  background: url('../assets/form/icon-select.svg') no-repeat center center;
-  pointer-events: none;
+    /* switcher arrow for select element */
+    content: '';
+    position: absolute;
+    z-index: 1;
+    right: 14px;
+    top: 50%;
+    @include transform(translateY(-50%));
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('../assets/form/icon-select.svg') no-repeat center center;
+    pointer-events: none;
 }
 
 select {
-  position: relative;
-  padding: 0.6em 2em 0.6em 1em;
-  cursor: pointer;
-  @include appearance(none);
+    position: relative;
+    padding: 0.6em 2em 0.6em 1em;
+    cursor: pointer;
+    @include appearance(none);
 }
 
 @import 'partials/basic-style';
