@@ -6,6 +6,8 @@
 @import 'partials/icons';
 @import 'partials/nav-style';
 @import 'partials/typography';
+@import 'partials/header';
+
 
 
 // responsive grid and media queries
@@ -35,7 +37,7 @@ xBackground
 
 body {
   /* this is the page background */
-  background-color: $color-3;
+  background-color: $color-2;
 }
 
 /* --------------------------------
@@ -59,18 +61,9 @@ xNavigation
 
 -------------------------------- */
 
-header {
-  background-color: $color-2;
-}
+/*xHeader
 
-.cd-logo {
-  /* logo box style */
-  width: 120px;
-
-  @include MQ(M) {
-    width: 180px;
-  }
-}
+---------------------------------- */
 
 .cd-download {
   /* download button top-right visible on big devices */

@@ -106,6 +106,7 @@ table {
 }
 #icons.cd-icons .cd-icon-5 {
   background-image: url("/icons8-space-shuttle.1d6459cd.png");
+  color: red;
 }
 
 .fa-fighter-jet:before {
@@ -217,6 +218,16 @@ p a {
   text-decoration: none;
 }
 
+/*/ Zen Garden Branding*/
+header {
+  background-color: #414042;
+}
+
+.cd-logo {
+  background-image: url("/logo-version-B.2f43a27f.jpg");
+  width: 120px;
+}
+
 /* --------------------------------
 
 xBackground
@@ -224,7 +235,7 @@ xBackground
 -------------------------------- */
 body {
   /* this is the page background */
-  background-color: #f7f7f7;
+  background-color: #414042;
 }
 
 /* --------------------------------
@@ -246,20 +257,9 @@ xPatterns
 xNavigation
 
 -------------------------------- */
-header {
-  background-color: #414042;
-}
+/*xHeader
 
-.cd-logo {
-  /* logo box style */
-  width: 120px;
-}
-@media only screen and (min-width: 1024px) {
-  .cd-logo {
-    width: 180px;
-  }
-}
-
+---------------------------------- */
 .cd-download {
   /* download button top-right visible on big devices */
   background-color: #5b595c;
@@ -512,6 +512,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
+  max-width: 45%;
 }
 
 a {
