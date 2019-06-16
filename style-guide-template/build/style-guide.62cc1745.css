@@ -218,16 +218,6 @@ p a {
   text-decoration: none;
 }
 
-/*/ Zen Garden Branding*/
-header {
-  background-color: #414042;
-}
-
-.cd-logo {
-  background-image: url("/logo-version-B.2f43a27f.jpg");
-  width: 120px;
-}
-
 /* --------------------------------
 
 xBackground
@@ -257,9 +247,20 @@ xPatterns
 xNavigation
 
 -------------------------------- */
-/*xHeader
+header {
+  background-color: red;
+}
 
----------------------------------- */
+.cd-logo {
+  /* logo box style */
+  width: 120px;
+}
+@media only screen and (min-width: 1024px) {
+  .cd-logo {
+    width: 180px;
+  }
+}
+
 .cd-download {
   /* download button top-right visible on big devices */
   background-color: #5b595c;
